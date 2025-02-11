@@ -1,0 +1,96 @@
+@font-face {
+    font-family: 'idroid.otf';
+    src: url('fontes/idroid.otf') format('truetype');
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #16DE99;   
+}
+
+header{
+
+    background: linear-gradient(to bottom, #8be29e, #5ea36c);
+    margin: center;
+    padding: 1.3em;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin: 3em;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    padding: 0.5em;
+    margin: 0em 12em;
+}
+
+
+
+main > h2 {
+    font-family: 'idroid.otf';
+}
+
+main > h3 {
+    font-family: 'idroid.otf';
+    background: linear-gradient(to right, #18d392b3, #16de9800);
+}
+
+main > picture{
+    margin: 0px auto;
+}
+
+img {
+    display: block;      /* Importante para imagens */          /* Define uma largura menor que 100% */
+    margin: 0 auto;      /* Centraliza horizontalmente */
+}
+
+section > iframe{
+    display: block;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 10px;
+    
+}
+
+section{
+    background-color: #11a470;
+    box-sizing: border-box;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+div{
+    background-color: #1bfbad74;
+}
+div > h4{
+    background-color: #11a471e1;
+    color: white;
+}
+
+#flex{
+    display: flex;
+    justify-content: center;
+    
+}
+
+ul li::before {
+    content: "✅"; /* Emoji antes do texto */
+    margin-right: 8px; /* Espaçamento entre o emoji e o texto */
+  }
+
+ul{
+    list-style: none;
+}

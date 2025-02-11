@@ -1,0 +1,34 @@
+
+body{
+    background: linear-gradient(to top, #6b4e48 , #8A635B, #A4756C);
+    font-family: dancing script;
+    font-size: 1.5em;
+}
+
+.menu{
+    color: #E8B8B5;
+}
+
+.card{
+    width: 400 px;
+    height: 400 px;
+    display: flex;
+    margin-right: 20px;
+    gap: 20px;
+    text-align: center;
+    list-style-position: inside;
+}
+
+#sobre{
+text-align: center;
+}
+
+
+#cafe-expresso ul{
+   display: none;
+}
+
+#cafe-expresso:hover ul{
+    display: block;
+    font-size: 0.5em;
+}
