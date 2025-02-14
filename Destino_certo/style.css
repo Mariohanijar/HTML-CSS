@@ -1,0 +1,82 @@
+:root{
+    --cor1: #6DB0E3;
+    --cor2: #779CB8;
+    --cor3: #1A4261;
+    --cor4: #192833;
+    --cor5: #253038;
+
+    --cinza: #73828E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+header > h1{
+    font-family: 'Bebas Neue';
+}
+
+header{
+    background: linear-gradient(to bottom,var(--cor1), var(--cor2));
+    text-align: center;
+}
+
+nav > a{
+    text-decoration: none;
+    padding: 0 2em;
+    color: var(--cinza)
+}
+
+nav a:hover{
+    background-color: white;
+    color: #1A4261;
+    transition: 0.4s;
+}
+
+
+img{
+    display: block;
+    max-width: 800px;
+    max-height: 800px;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column; /* Organiza os artigos em coluna */
+    align-items: center; /* Centraliza os elementos horizontalmente */ /* Centraliza verticalmente, se necessário */
+    margin: 0 12em; /* Centraliza horizontalmente */
+    background-color: var(--cor1);
+
+}
+
+
+
+
+
+
+
+article > h2{
+    text-align: center;
+    font-family: 'Bebas Neue';
+
+}
+
+article > p{
+    display: block;
+    background-color: #6DB0E3;
+    margin: auto;
+    text-align: center;
+}
+
+footer > p{
+    background-color: #192833;
+    text-align: center;
+    color: white;
+}
+
+
+
+

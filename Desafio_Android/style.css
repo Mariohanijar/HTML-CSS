@@ -54,7 +54,8 @@ main > picture{
 
 img {
     display: block;      /* Importante para imagens */          /* Define uma largura menor que 100% */
-    margin: 0 auto;      /* Centraliza horizontalmente */
+    margin: 0 auto;  
+    width: 50%;    /* Centraliza horizontalmente */
 }
 
 section > iframe{

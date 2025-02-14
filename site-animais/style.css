@@ -1,0 +1,108 @@
+
+:root{
+    --cor1 : #DB8F14;
+    --cor2 : #B17E2D;
+    --cor3 : #866939;
+    --cor4 : #5C4D36;
+    --cor5 : #3D3A36;
+    --cor6 : #332E27;
+
+  --safari-bege: #f4e8c1;   /* Bege claro, areia do deserto */
+  --safari-dourado: #e1b866; /* Dourado quente, sol africano */
+  --safari-terra: #c48c46;   /* Marrom alaranjado, terra seca */
+  --safari-oliva: #7a6f42;   /* Verde oliva, vegetação da savana */
+  --safari-ébano: #3e2f1d; 
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: var(--cor1);
+    text-align: center;
+}
+
+nav > a{
+    font-size: 1.2em;
+    text-decoration: none;
+    padding: 0 2em;
+    color: var(--cor4);
+}
+
+nav > a:hover{
+    background-color: var(--cor4);
+    color: #CFB57A;
+    transition: 0.3s;
+}
+
+main{
+    background-color: var(--safari-dourado);
+    margin: 0 12em;
+    min-width: 400px;
+    padding: 0.2em 8em;
+}
+
+main > h2{
+    text-align: center;
+    padding: 0.5em;
+    color: var(--cor6);
+    background-color: var(--safari-bege);
+    border-radius: 0.6em;
+
+}
+
+
+.card{
+    min-width: 480px;
+    padding: 1em 1em;
+    margin: 1.5em 0;
+    background-color: var(--safari-bege);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center; /* Centraliza verticalmente */
+    gap: 1em; /* Adiciona um espaçamento entre a imagem e o texto */
+    overflow: hidden;
+}
+
+.card img{
+max-width: 400px;
+max-height: 400px;
+}
+
+.card ul{
+    list-style: none;
+}
+
+.card li::before{
+    content: '🦁';
+}
+
+
+
+
+article > p{
+    background-color: white;
+}
+
+h1{
+    font-size: 2.5em;
+}
+
+h2{
+    font-size: 1.8em;
+}
+
+h3{
+    font-size: 1.3em;
+}
+
+footer{
+    background-color: var(--cor1);
+    text-align: center;
+    padding: 1em;
+    color: white;
+}
