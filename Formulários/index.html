@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>meu primeiro formulário</h1>
+    <form action="cadastro.php" autocomplete="off">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome"><p>Nome</p> </label>
+        <input type="text" name="nome" id="nome" required placeholder="Nome do usuario">
+
+        <label for="sobrenome"><p>sobrenome</p></label>
+        <input type="text" name="sobrenome" id="sobrenome" placeholder="digite seu sobrenome">
+        
+        <label for="senha"><p>escreva sua senha</p></label>
+        <input type="text" name="senha" id="senha" required minlength="8" placeholder="Senha do usuario">
+        
+
+        <label for="calendario"><p>escreva a data</p></label>
+        <input type="date" name="calendario" id="calendario">
+
+        <p><input type="submit" value="Enviar" ></p>
+   
+        </fieldset>
+         </form>
+
+         <form action="cadastro2.php" autocomplete="off">
+            <fieldset>
+                <legend>Dados profissionais</legend>
+                <label for="ltrabalho"><p>ltrabalho</p> </label>
+            <input type="text" name="ltrabalho" id="ltrabalho" required placeholder="local onde vc trabalha">
+    
+            <label for="Empresa"><p>Empresa</p></label>
+            <input type="text" name="Empresa" id="Empresa" placeholder="empresa que vc trabalha">
+
+            <label for="iprof"><p>Profissão</p></label>
+            <input type="text" name="prof" id="iprof" list="listprof">
+            <datalist id="listprof">
+                <option> Advogado</option>
+                <option> Médico</option>
+            </datalist>
+
+            <textarea name="socorro" id="">nao aguento mais labellll</textarea>
+            
+
+    
+            <p><input type="submit" value="Enviar" ></p>
+       
+            </fieldset>
+             </form>
+
+
+             <form action="cadastro3.php" autocomplete="off">
+                <fieldset>
+                    <legend>Jogos favoritos</legend>
+                    <label for="jgta"><p>Gta</p> </label>
+                <input type="checkbox" name="jgta" id="jgta">
+        
+                <label for="jminecraft"><p>Minecraft</p></label>
+                <input type="checkbox" name="jminecraft" id="jminecraft">
+                
+                <label for="jrdr"><p>Red dead redemption</p></label>
+                <input type="checkbox" name="jrdr" id="jrdr">
+                
+                <label for="jhitman"><p>hitman</p></label>
+                <input type="checkbox" name="jhitman" id="jhitman">
+                <p><input type="submit" value="Enviar" ></p>
+           
+                </fieldset>
+                 </form>
+
+                 <form action="cadastro4.php" autocomplete="off">
+                    <fieldset>
+                        <legend>Sexo</legend>
+                        <label for="isexom"><p>Homem</p> </label>
+                    <input type="radio" name="sexo" id="isexom">
+                    <label for="isexof"><p>Mulher</p> </label>
+                    <input type="radio" name="sexo" id="isexof">
+                    <p><input type="submit" value="Enviar" ></p>
+               
+                    </fieldset>
+                     </form>
+
+                     
+                     
+                     <form action="cadastro6.php" autocomplete="off">
+                        <fieldset>
+                            <legend>Estado</legend>
+                            <label for="ifoto"><p>Escolha seu estado<br></p> </label>
+                            <select name="Estado" id="Estado">
+                                <optgroup label="Norte">
+                                    <option value="PA">Pará</option>
+                                    <option value="AC">Acré</option>
+                                </optgroup>
+                                <optgroup label="Sul">
+                                    <option value="SC">Santa Catarina</option>
+                                    <option value="PR">Paraná</option>
+                                </optgroup>
+                                
+                                
+                            </select>
+                        </fieldset>
+                         </form>
+                     
+                     
+                     
+                     <form action="cadastro5.php" autocomplete="off">
+                        <fieldset>
+                            <legend>Envie sua foto</legend>
+                            <label for="ifoto"><p>coloque sua foto</p> </label>
+                        <input type="file" name="foto" id="ifoto">
+                        </fieldset>
+                         </form>
+    
+
+            
+</body>
+</html>

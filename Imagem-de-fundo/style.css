@@ -1,0 +1,39 @@
+.quadrado{
+    position: relative;
+    border: 1px solid black;
+    width: 600px;
+    height: 600px;
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+article{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+
+    color: white;
+    text-align: center;
+}
+
+#q1{
+    background-color: aqua;
+}
+
+#q2{
+    background: linear-gradient(to left, rgb(37, 170, 215), lightblue);
+}
+
+#q3{
+    background-image: url('Imagens/imagens-cap19/pattern001.png');
+}
+
+body{
+
+}
+
